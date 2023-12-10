@@ -1,1 +1,43 @@
-/* Add screen styles below */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end; /* Align the header to the right */
+}
+
+.navbar {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row; /* Align the navbar text horizontally */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 10px;
+    display: inline-block; /* Display horizontally */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+}
