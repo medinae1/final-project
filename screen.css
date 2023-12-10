@@ -41,3 +41,27 @@ header {
 .content {
     padding: 20px;
 }
+
+/* gallery.css */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.artwork {
+    margin: 10px;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.artwork img:hover {
+    border: 1px solid #555;
+}
