@@ -1,7 +1,57 @@
+html
+{
+    background: #fffafd;
+
+}
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
+h1
+{
+    text-align: center;
+    padding: 20px;
+}
+
+h2
+{
+    text-align: center;
+    padding: 20px;
+}
+.section {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Set a maximum height if needed */
+    margin: 100px;
+}
+.text-container {
+    max-width: 400px; /* Adjust the maximum width as needed */
+}
+
+.centered-text {
+    max-width: 100%; /* Ensure text doesn't exceed its container */
+}
+ul{
+    padding-left: 0;
+    
+}
+ul li {
+    list-style-position: inside;
+    
+ }
 
 header {
     background-color: #333;
@@ -38,20 +88,17 @@ header {
     font-size: 18px;
 }
 
-.content {
-    padding: 20px;
-}
 
 /* gallery.css */
 
-.gallery {
+.gallery
+{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
-.artwork {
-    margin: 10px;
+.artwork{
+    flex: 33.33%;
+    padding: 5px;
 }
 
 .artwork img {
@@ -64,9 +111,4 @@ header {
 
 .artwork img:hover {
     border: 1px solid #555;
-}
-
-h1
-{
-    text-align: center;
 }
